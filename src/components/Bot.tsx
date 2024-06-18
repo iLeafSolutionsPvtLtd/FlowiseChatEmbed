@@ -834,7 +834,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
 
         {props.showTitle ? (
           <div
-            class="flex flex-row items-center w-full h-[50px] absolute top-0 left-0 z-10"
+            class="flex flex-row items-center w-full h-[80px] absolute top-0 left-0 z-10"
             style={{
               background: props.bubbleBackgroundColor,
               color: props.bubbleTextColor,
