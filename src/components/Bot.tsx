@@ -834,7 +834,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
 
         {props.showTitle ? (
           <div
-            class="flex flex-row items-center w-full h-[80px] absolute top-0 left-0 z-10"
+            class="flex flex-row items-center w-full h-[60px] absolute top-0 left-0 z-10 testClass"
             style={{
               background: props.bubbleBackgroundColor,
               color: props.bubbleTextColor,
@@ -849,7 +849,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
               </>
             </Show>
             <Show when={props.title}>
-              <span class="px-3 whitespace-pre-wrap font-semibold max-w-full">{props.title}</span>
+              <span class="px-3 whitespace-pre-wrap font-semibold max-w-full !text-white !text-base">{props.title}</span>
             </Show>
             <div style={{ flex: 1 }} />
             <DeleteButton
